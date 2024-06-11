@@ -1,0 +1,64 @@
+.clockContainer {
+	position: relative;
+	margin: auto;
+	height: 20vw;
+	/* height: 40vw; */
+	/*to make the height and width responsive*/
+	width: 20vw;
+	/* background: url(https://media.geeksforgeeks.org/wp-content/uploads/20210302161254/imgonlinecomuaCompressToSizeOmNATjUMFKw-300x300.jpg) no-repeat; */
+	background: url(bgImage-300x300.jpg) no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+.locationContainer {
+	position: relative;
+	margin: auto;
+}
+
+.locationTxt {
+	font-family: "arial";
+	font-weight: bold;
+}
+
+.row {
+	display: flex;
+	text-align: center;
+}
+
+.column {
+	width:20%;
+}
+
+.hour,
+.minute,
+.second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+.hour {
+	width: 1.8%;
+	height: 25%;
+	top: 24%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+.minute {
+	width: 1.6%;
+	height: 35%;
+	top: 15%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+.second {
+	width: 1%;
+	height: 45%;
+	top: 4%;
+	left: 49.25%;
+	opacity: 0.8;
+}
